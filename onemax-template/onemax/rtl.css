@@ -1,0 +1,242 @@
+/*
+Theme Name:OneMax
+Theme URI:http://onemaxwpdemo.onemax.site
+Author:OneMax Creative Design Team
+Author URI:http://www.onemax.site
+Description:This is a responsive Multi-Purpose WordPress theme,we hope all of you like this theme.
+Version:1.33
+License:Themeforest Split Licence
+License URI:Text Domain:onemax
+*/
+
+html{ direction:inherit;}
+
+#header-outer,#footer,#header-outer,.page-content,.small-nav {
+	direction:rtl;
+	unicode-bidi:embed
+}
+/* om-index ------------------------------------------------------------------------ */
+#om-single,#comment,.nav-links {
+	text-align:right;
+}
+#om-page .posts_nav_link .page-numbers {
+	font-size:15px;
+	text-decoration:none;
+	padding-left:18px !important;
+}
+#om-search .posts_nav_link .page-numbers {
+	font-size:15px;
+	text-decoration:none;
+	padding-left:18px !important;
+}
+#om-index .posts_nav_link .page-numbers {
+	font-size:15px;
+	text-decoration:none;
+	padding-left:18px !important;
+}
+#om-single .posts_nav_link .page-numbers {
+	font-size:15px;
+	text-decoration:none;
+	padding-left:18px !important;
+}
+#om-single .nav-links a {
+	font-size:15px;
+	text-decoration:none;
+	padding-left:28px !important
+}
+#om-single .nav-links span {
+	font-size:15px;
+	text-decoration:none;
+	padding-left:28px !important
+}
+#om-single .comment-links a,#om-page .comment-links a {
+	font-size:15px;
+	text-decoration:none;
+	padding-left:28px !important
+}
+#om-single .comment-links span,#om-page .comment-links span {
+	font-size:15px;
+	text-decoration:none;
+	padding-left:28px !important
+}
+#om-single .om-single-center .relate-tags{ float:right !important;}
+#om-single .comment .gravatar, #om-page .comment .gravatar{ float: right !important;}
+#om-single .comment-meta, #om-page .comment-meta{ margin-left:0 !important; margin-right: 88px;}
+
+/* menu ------------------------------------------------------------------------ */
+
+body[data-dropdown-style="minimal"] .sf-menu li ul li .sf-sub-indicator {
+	right:1px !important;
+}
+.sf-sub-indicator {
+	left:-5px !important;
+}
+.small-nav #cssmenu {
+	text-align:right;
+}
+.sf-menu li ul li .sf-sub-indicator {
+	direction:inherit;
+}
+
+/* footer ------------------------------------------------------------------------ */
+
+.tagcloud a {
+	float:right !important;
+}
+#footer .text-center {
+	text-align:right !important;
+}
+#footer .textwidget{
+	text-align:right !important;
+}
+#footer .widget-title{
+	text-align:right !important;
+}
+#footer .widget-container a{
+	text-align: right!important;
+}
+#footer .widget_recent_entries li{
+	text-align: right;
+}
+@media only screen and (max-width: 992px){
+.om-col-3, .om-col-6, .om-col-4, .om-col-8 {
+    text-align: right;
+    width: 80%!important;
+    float: none;
+    margin: 0 auto;
+}
+#footer .help_list ul li{float: right !important;    padding: 5px 0px 5px 0 !important;}
+#footer .widget_recent_entries li {  float: right !important;  padding: 5px 0px 5px 0 !important;}
+}
+.widget_text {
+     padding-left: 15px !important; 
+}
+#mobile-menu ul li a{ text-align:right;}
+@media only screen and (max-width: 1000px) and (min-width: 1px){
+a > .sf-sub-indicator {
+    right: 0!important;
+    position: absolute;
+    text-align: left;
+    padding: 0px 16px 0px 16px;
+    left: 0 !important;
+    height: 60px;
+    top: 0 !important;
+    width: auto;
+}
+/* blog ------------------------------------------------------------------------ */
+
+#om-index ul.blog .post_width,.vc-blog ul.blog .post_width {
+	text-align:-webkit-right !important;
+	text-align:-moz-right !important;
+	text-align:-ms-right !important;
+}
+
+/* about ------------------------------------------------------------------------ */
+
+.box1-content {
+	text-align:right !important
+}
+.blog1cont{ text-align:right !important;}
+/* swiper slide ------------------------------------------------------------------------ */
+
+.testimonials2 .swiper-container2 .fa-angle-right:before {
+	content:"\f104";
+}
+.testimonials2 .swiper-container2 .fa-angle-left:before {
+	content:"\f105";
+}
+/* alert box ------------------------------------------------------------------------ */
+
+.vc_message_box-icon {
+	right:0;
+}
+.alter1 .vc_message_box p {
+	margin-right:40px !important;
+}
+.alter1 div .alter-a {
+	left:30px;
+	right:inherit;
+}
+/* blockquote ------------------------------------------------------------------------ */	
+.om-blockquote .fa-quote-right {
+	left:inherit;
+	right:-22px;
+}
+.om-blockquote p {
+	text-align:right;
+}
+/* call to Action ------------------------------------------------------------------------ */		
+.vc_general.vc_cta3.vc_cta3-align-left .vc_cta3-content {
+	text-align:right !important;
+}
+/* counters ------------------------------------------------------------------------ */			
+	.counters .row_w {
+	
+}
+
+/* countdown  ------------------------------------------------------------------------ */			
+.countdown .row_x2:last-child {
+    padding-right: 30px !important;
+}
+/* custom Heading  ------------------------------------------------------------------------ */	
+.om-custom-head{ }
+
+/* faq ------------------------------------------------------------------------ */	
+.vc_toggle_icon{ right: 0; }
+.vc_toggle_title{ padding-left:0 !important; text-align:right;padding-right: 24px !important;}
+.vc_toggle_content{ text-align:right;}
+.faq .accordion{ text-align:right;}
+
+/* icon List ------------------------------------------------------------------------ */	
+.vc_separator{ text-align:right;}
+
+/* progress bar ------------------------------------------------------------------------ */	
+.vc_progress_bar .vc_single_bar .vc_bar{ right:0;}
+.vc_progress_bar .vc_single_bar .vc_label{ text-align:right;}
+.wpb_progress_bar_heading{text-align:right;}
+
+/* accordion ------------------------------------------------------------------------ */	
+.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left.vc_tta-panel-title>a{padding-right: 46px !important; text-align: right;}
+.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left .vc_tta-controls-icon{ right:20px;}
+.vc_tta-panel-body{ text-align:right;}
+.vc_tta-container{ text-align:right;}
+
+/* team ------------------------------------------------------------------------ */	
+.teamsix .team-img2 { margin-right:20px;}
+
+/* tabs ------------------------------------------------------------------------ */	
+.vc_tta-tabs-container,.vc_tta-panel-body{ text-align:right !important;}
+
+/* swiper ------------------------------------------------------------------------ */	
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background-image: url(main.css);
+    left: 0px;
+    right: auto;
+}
+
+/* testimonials ------------------------------------------------------------------------ */	
+.swiper-button-prev,.swiper-container-rtl .swiper-button-next{left:20px !important;}
+
+/* section  ------------------------------------------------------------------------ */	
+.vc_tta-panel-body{ text-align:right;}
+
+/* text  ------------------------------------------------------------------------ */	
+.wpb_content_element{text-align:right;}
+
+/* ONEMAX 1.0  ------------------------------------------------------------------------ */
+.display_header {
+    margin:0 !important;
+}
+#om-index ul.blog .vc-blog2-content, .vc-blog ul.blog .vc-blog2-content{ text-align:right !important;}
+
+ul.blog .block_width3{ text-align:right !important;}
+
+#om-index ul.blog .blog1cont, .vc-blog ul.blog .blog1cont{ text-align:right !important;}
+
+.swiper-container .fa-angle-right:before {
+	content:"\f104";
+}
+.swiper-container .fa-angle-left:before {
+	content:"\f105";
+}
+
